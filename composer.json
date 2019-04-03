@@ -1,0 +1,17 @@
+{
+    "name": "pfwd/mailer",
+    "description": "A wrapper for Swift Mailer",
+    "type": "library",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PFWD\\Mailer\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
